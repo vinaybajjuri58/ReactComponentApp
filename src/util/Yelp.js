@@ -12,7 +12,7 @@ let Yelp={
                 return jsonResponse.businesses.map(business=>{
                     return{
                         id : business.id,
-                        src: business.imageSrc,
+                        imageSrc: business.imageSrc,
                         name:business.name,
                         address:business.address,
                         city:business.city,
